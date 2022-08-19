@@ -580,6 +580,7 @@ p a:hover {
 
 .shop_now_link a span:hover {
   margin-right: 4px;
+  text-decoration: underline;
 }
 
 .multipeople_shop {
@@ -735,6 +736,7 @@ p a:hover {
 /*  back to top */
 .btt_div {
   margin-top: 30px;
+  margin-bottom: 30px;
   height: 50px;
   position: sticky;
   bottom: 5px;
@@ -767,10 +769,10 @@ p a:hover {
 }
 /* footer */
 footer {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 68px;
+  padding-right: 68px;
   background-color: #f2f2f2;
-  height: max-content;
+  height: max-content; 
 }
 
 footer ul {
@@ -783,13 +785,12 @@ footer ul {
 }
 
 .footer_row ul>li {
-  padding-bottom: 20px;
+  padding-bottom: 13px;
 }
 
 .title {
-  color: #000000;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   padding-top: 40px;
 }
 
@@ -800,7 +801,9 @@ footer ul {
 .footer_row ul>.title:hover {
   text-decoration: none !important;
 }
-
+.footer_bar{
+  margin-top: 20px;
+}
 .footer_bar span:hover {
   text-decoration: underline;
 }
@@ -829,4 +832,7 @@ footer ul {
 
 .bar_right>span {
   padding-right: 10px;
+}
+.footer_copyright{
+  text-decoration: none!important;
 }
